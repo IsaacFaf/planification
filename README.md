@@ -25,7 +25,9 @@ Je veux intégrer les connaissances apprises pendant la technique pour effectuer
 
 
 ![arcade game](medias/arcadeShip.jpg)
-Vectoriel
+
+En Vectoriel
+
 ![Bouger](medias/kinect.jfif)
 
 
@@ -90,7 +92,7 @@ graph TD;
         Projecteur[Projecteur vidéo - Projection du jeu]
         
         subgraph Kiosque
-            Levier[Levier avec bouton Bluetooth]
+            Levier[TriggerStick avec bouton Bluetooth]
             
             CapteurMouvement1[Détecteur de mouvement M5Stack 1]
             CapteurMouvement2[Détecteur de mouvement M5Stack 2]
@@ -125,7 +127,7 @@ graph TD;
 graph TD;
     %% Définition du kiosque
     subgraph Kiosque
-        Levier[Levier avec bouton Bluetooth]
+        Levier[TriggerStick avec bouton Bluetooth]
         
         CapteurMouvement1[Détecteur de mouvement M5Stack 1]
         CapteurMouvement2[Détecteur de mouvement M5Stack 2]
@@ -179,7 +181,7 @@ graph TD;
 
     %% Section interaction
     subgraph Interaction
-        Levier[Levier avec bouton Bluetooth]
+        Levier[TriggerStick avec bouton Bluetooth]
         CapteurMouvement1[Détecteur de mouvement M5Stack 1]
         CapteurMouvement2[Détecteur de mouvement M5Stack 2]
         Bouton[Signal de tir depuis le levier]
