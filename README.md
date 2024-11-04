@@ -65,9 +65,11 @@ graph TD;
 
     
 ```
+## Simulation
+![visuel](medias/scenarimage.PNG)
 
 ## Synoptique
-![Scenarimage](medias/scenarimage.PNG)
+
 ```mermaid
 graph TD;
     %% Définition du studio
@@ -182,11 +184,15 @@ graph TD;
 
 
 ```
+### Branchement
+![branchement](medias/branchement.png)
 ## Logiciels & Réseaux
 ### Logiciels:
 * Unity
 * PlugData
 * Arduino
+* Maya
+* VCV Rack
 ### Réseautage:
 Arduino communique grâce à une communication OSC vers Unity dans l'ordinateur. Unity générera le son transmis au travers les speakers et la projection sera celle que Unity génerera grâce à l'OSC.
 
@@ -199,8 +205,7 @@ Les Time Of Flights envoyeront des données pour calculé l'emplacement du vaiss
 ## Plantation
 ![Grand Studio](medias/plan_des_studios_2D.jpg)
 
-## Simulation
-![Simulation](medias/paintExpl.PNG)
+
 
 
 
@@ -213,6 +218,7 @@ Les Time Of Flights envoyeront des données pour calculé l'emplacement du vaiss
     - 2 TOF ou 3 PIR M5Stack
 * Kiosque prisme rectangulaire
 * 2 Haut-parleurs
+* TriggerStick
 
 
 ### Etude Projecteur
@@ -286,13 +292,6 @@ Le TriggerStick aura un feutre dessus pour éviter tout blessure au main d'un co
 
 
 
-# Technologie utilisé
-* Arduino [Détection de l'emplacement du levier]
-* Unity
-* Maya [3D vaisseau]
-* Lumière AmericanDJ [Ambiance lumineuse]
-* Reaper [Montage sonore]
-* VCV Rack 2 [Son Génératif]
 
 
 # Mediagraphie
