@@ -203,7 +203,10 @@ Les Time Of Flights envoyeront des données pour calculé l'emplacement du vaiss
 
 
 ## Plantation
+
 ![Grand Studio](medias/plan_des_studios_2D.jpg)
+
+Studio T.I.M Montmorency
 
 
 
